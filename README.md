@@ -16,7 +16,7 @@ The data of each line are as follows:
   1. Person name (not repeated in the input file).
   1. GPA, which is a number between 0 to 4, and it may contain at most 1 digit after the decimal point (if any).
   1. CST score (ficticious standardized Computer Science Test with range of 0 to 999). It will not have decimals.
-  1. Leader name.
+  1. Leader name. (When the leader name is exactly the same as the person name, then it is the root node).
 
 Lines that start with the symbol `#` should be considered comments and therefore skipped. There may be empty lines in the input file; such lines should be skipped.
 
@@ -122,6 +122,7 @@ The output would be:
 
 * Each input file can fit in main memory (not larger than 10kb).
 * You can assume a maximum number of 1299 lines in the input file.
+* There will be only one tree (that is, only one root node). 
 
 ## Requirements
 
