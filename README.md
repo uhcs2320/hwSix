@@ -51,7 +51,7 @@ Such line will have two items (separated by the `tab` character).
 
 ## Program specification
 
-The main program should be called `devhire` and the syntax in which it will be tested is as follows:
+The main program should be called `leaflead` and the syntax in which it will be tested is as follows:
 
 `./leaflead "input=FILENAME"`
 
@@ -123,6 +123,8 @@ The output would be:
 * Each input file can fit in main memory (not larger than 10kb).
 * You can assume a maximum number of 1299 lines in the input file.
 * There will be only one tree (that is, only one root node). 
+* The maximum number of children nodes of a parent node is 4.
+* Your program will be tested with data where no two nodes will have the exact same score.
 
 ## Requirements
 
