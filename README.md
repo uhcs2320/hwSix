@@ -1,4 +1,4 @@
-# hw6, LeafLead. Due date: 11/28 11:50 p.m.
+# hw6, LeafLead. Due date extended to: 11/29 11:50 p.m.
 
 You will create a C++ program that will simulate the selection (via tree traversal and sorting) of candidates to a ficticious Top-6 company that hires CS majors.
 In real companies/organizations, selection of applicants follows a well-thought procedure that is extremely unlikely to mirror the selection method in this programming assignment.
